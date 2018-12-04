@@ -1,0 +1,90 @@
+\documentclass[a4paper,11pt,twoside]{article}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage{bookman}
+%\usepackage{libertine}
+%\usepackage{quattrocento}
+\usepackage{avant}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[paper=a4paper,top=0.8cm,bottom=1.2cm,right=2cm,left=2cm]{geometry} % margini
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{framed,wrapfig}
+\usepackage{parskip}
+\usepackage{enumitem}
+
+\setlist[itemize]{leftmargin=*}
+\setlist{itemsep=.5em}
+\newcommand{\titoletto}[1]{\begin{centering}{\small #1\par}\end{centering}\vspace{1em}}
+\renewcommand\arraystretch{1.25}
+
+\begin{document}
+\pagestyle{empty}
+\begin{minipage}{.32\textwidth}
+	\begin{framed}
+		\titoletto{Catorci lentissimi}
+		\begin{tabular}{l p{3cm}}
+			CPU & Pentium 4\\
+			RAM & 1 GiB\\
+			HDD & 80 GB \newline (o 40+40 GB)\\
+		\end{tabular}
+	\end{framed}
+\end{minipage}%
+\hfill
+\begin{minipage}{.32\textwidth}
+	\begin{framed}
+		\titoletto{Calcolatori decenti}
+		\begin{tabular}{l p{3cm}}
+			CPU & Core 2 Duo, i3\\
+			RAM & 2 GiB\\
+			HDD & 160 GB o pi\`u\newline \\
+		\end{tabular}
+	\end{framed}
+\end{minipage}%
+\hfill
+\begin{minipage}{.32\textwidth}
+	\begin{framed}
+		\titoletto{Calcolatori buoni}
+		\begin{tabular}{l p{3cm}}
+			CPU & Core 2 Quad, i5\\
+			RAM & 4 GiB\\
+			HDD & Quanto basta\newline \\
+		\end{tabular}
+	\end{framed}
+\end{minipage}%
+\vspace{.016\textwidth}
+\begin{minipage}{.32\textwidth}
+	\begin{framed}
+		\titoletto{Server, workstation}
+		\begin{tabular}{l p{3cm}}
+			CPU & Xeon, Opteron\\
+			RAM & Quella che c'\`e\\
+			HDD & RAID di qualche genere o SSD\newline \\
+		\end{tabular}
+	\end{framed}
+\end{minipage}
+
+
+{\Large\textsc{Riparazione}}\par
+
+
+
+\begin{wrapfigure}{l}{4 cm}
+	\vspace{-0.5cm}
+	\begin{framed}
+		\begin{centering}
+		{\footnotesize Codice inventario\par}
+		\vspace{2.4cm}
+		\end{centering}		
+	\end{framed}
+	\vspace{-1.4cm}
+\end{wrapfigure}
+foo bar
+
+Lorem ipsum
+
+asd
+\end{document}
+
