@@ -66,25 +66,57 @@
 	\end{framed}
 \end{minipage}
 
+\section{Installazione}
+\begin{enumerate}
+	\item Avviare Xubuntu > F4 > ``Installazione OEM per configuratori hardware robe cose'' > Installa
+	\item Nome che chiede nella prima schermata: \texttt{WEEE Open}
+	\item Partizionamento automatico
+	\item Password: \texttt{open}
+	\item A fine installazione riavviare
+	\item \texttt{sudo timedatectl set-ntp true}
+	\item \texttt{sudo apt update}
+	\item \texttt{sudo apt upgrade}
+	\item \texttt{sudo apt install vlc}
+	\item Spegnere \emph{senza} fare ``Prepare for shipping''
+\end{enumerate}
 
-{\Large\textsc{Riparazione}}\par
+\section{Dove scrivere i codici}
 
+\subsection{Case di fissi}
+\begin{itemize}
+	\item Su etichetta WEEE Open, con pennarello nero. Attaccare l'etichetta davanti. Se impossibile, sopra. Se ancora impossibile, in quel posto.
+	\item Dietro, su una parte del case (no PSU, no IO shield), pennarello qualsiasi
+	\item Sul lato interno del fianco apribile (anche dell'altro se tende a cascare da solo), pennarello qualsiasi
+	\item Sulla gabbia di HDD/ODD, in vista col case aperto, se possibile, pennarello qualsiasi
+\end{itemize}
 
+\subsection{Portatili}
+Su etichetta WEEE Open attaccata sotto una parte non rimuovibile (no sportelli) o sul retro dello schermo, con pennarello nero
 
-\begin{wrapfigure}{l}{4 cm}
-	\vspace{-0.5cm}
-	\begin{framed}
-		\begin{centering}
-		{\footnotesize Codice inventario\par}
-		\vspace{2.4cm}
-		\end{centering}		
-	\end{framed}
-	\vspace{-1.4cm}
-\end{wrapfigure}
-foo bar
+\subsection{RAM}
+Con pennarello bianco, 1 carattere per ogni chip tanto sono uguali. Oppure con pennarello qualsiasi su un'area vuota della PCB, se c'\`e. Oppure attacare etichetta bianca tagliata.
 
-Lorem ipsum
+\subsection{Schede PCI (grafiche, audio, etc...)}
 
-asd
+Sul bracket in una zona libera, sia all'interno che all'esterno, in modo che sia visibile e dritto a pc montato, se possibile.
+
+Da qualche altra parte sulla PCB, va bene anche etichetta bianca tagliata.
+
+\subsection{Lettori CD (ODD)}
+
+Sopra, sul retro (con pennarello bianco se \`e nero), sul fianco verso il retro in modo che da montato sia leggibile
+
+\subsection{Altri componenti}
+
+Seguire il buon senso, basta che si legga quando sono montati...
+
+\section{Pulizia del calcolatore}
+
+\begin{itemize}
+	\item Rimuovere etichette brutte e inutili (scritte a mano, strappate, etc...), soprattutto se ostacolano le nostre. Non rimuovere assolutamente CIB e seriali Windows!
+	\item Togliere la polvere usando i propri polmoni
+	\item Cambiare pasta termica se necessario, scrivere nelle note se fatto cos\`i non si rif\`a
+\end{itemize}
+
 \end{document}
 
